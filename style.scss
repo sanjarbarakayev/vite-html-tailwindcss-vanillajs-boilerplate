@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: 'Fira Sans', sans-serif;
+
+  --font-size-xsm: 1.2rem;
+  --font-size-sm: 1.6rem;
+  --font-size-md: 2.4rem;
+  --font-size-lg: 3rem;
+  --font-size-xl: 4rem;
+}
+
+html {
+  font-size: 62.5%; /* font-size: 10px; */
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-sm);
+}
