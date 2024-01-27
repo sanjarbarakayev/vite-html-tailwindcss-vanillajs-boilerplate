@@ -1,30 +1,21 @@
-Vite HTML SCSS JS starter
-
-## Quick start
+Vite HTML TAILWINDCSS JS starter
 
 ## Usage
 
-install packages:
+Install packages:
 
 ```bash
-yarn
+yarn || npm install
 ```
 
-run server in dev mode listening port 5173:
+Run server in dev mode listening port 5173:
 
 ```bash
-yarn dev
+yarn dev || npm run dev
 ```
 
-build and run locally listening port 3000:
+Build and run locally listening port 3000:
 
 ```bash
-yarn build && yarn preview
+yarn build && yarn preview || npm run build && npm run preview
 ```
-
-## Deployment
-
-To deploy GitHub repository settings you must update `Pages` section:
-Build and deployment:
-`Source` -> `Deploy from branch`
-`Branch` -> `gh-pages / (root)`
